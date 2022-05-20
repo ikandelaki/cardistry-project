@@ -15,14 +15,16 @@ Spacing:
 -- Primary: #2f9e44
 tints:
 #ebfbee
+#d3f9d8
 
 shades:
 #2b8a3e
 
 -- Grey: 
 Primary: 
-#212529
-#343a40
+- main-heading: #222
+- secondary heading: #333
+- tertiary heading: #444
 #555
 #495057
 
@@ -65,8 +67,27 @@ body {
 
 .container {
   max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+  height: 100%;
 }
 
 .link:link {
   text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  padding: 2rem;
+  gap: 4.8rem;
+  height: 100%;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.stick-left {
+  display: flex;
+  justify-content: flex-end;
 }
