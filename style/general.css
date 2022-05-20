@@ -23,6 +23,7 @@ shades:
 Primary: 
 #212529
 #343a40
+#555
 #495057
 
 ////////////////////////////////
@@ -63,7 +64,7 @@ body {
 }
 
 .container {
-  max-width: 134rem;
+  max-width: 120rem;
 }
 
 .link:link {
