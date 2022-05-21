@@ -205,14 +205,14 @@
 
 .see-video-title {
   padding-bottom: 2.4rem;
-  font-size: 4.8rem;
+  font-size: 3.4rem;
   font-weight: 600;
   color: #333;
 }
 
 .see-video-description {
   font-size: 2rem;
-  padding: 2.4rem 0;
+  padding: 1.2rem 0 4.8rem;
 }
 
 .see-text-container:nth-child(3) .see-video-title {
