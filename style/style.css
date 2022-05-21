@@ -120,13 +120,12 @@
 }
 
 /******************************/
-/* HERO SECTION */
+/* WHAT IT IS SECTION */
 /******************************/
 
 .section-what {
   padding: 4.8rem 0;
   background-image: linear-gradient(#d3f9d8, #fff);
-  height: 120vh;
 }
 
 .heading-secondary {
@@ -139,14 +138,89 @@
 .cardistry-description {
   font-size: 2rem;
   padding: 3rem 0;
-  height: 30%;
 }
 
 .img-2 {
-  transform: translateY(-70%);
+  transform: translateY(30%);
+}
+
+.cardistry-description:nth-child(4) {
+  transform: translateY(-70rem);
 }
 
 .what-img img {
   border-radius: 6px;
   width: 100%;
+}
+
+/******************************/
+/* SEE YOURSELF SECTION */
+/******************************/
+
+.section-see {
+  padding: 9.6rem;
+  background-image: linear-gradient(#fff, #d3f9d8);
+}
+
+.see-description {
+  margin: 4.8rem 0 3.6rem;
+  font-size: 2.4rem;
+}
+
+.videos-section {
+  padding: 4.8rem;
+}
+
+.see-text-container {
+  padding: 1.2rem;
+}
+
+.see-video {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  filter: brightness(80%);
+}
+
+.see-video:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+  filter: brightness(100%);
+}
+
+.see-video-link:link,
+.see-video-link:visited {
+  font-size: 1.8rem;
+  color: #555;
+  border-bottom: 2px solid #555;
+  transition: all 0.3s;
+}
+
+.see-video-link:hover,
+.see-video-link:active {
+  color: #2b8a3e;
+  border-bottom: 2px solid #2b8a3e;
+}
+
+.see-video-title {
+  padding-bottom: 2.4rem;
+  font-size: 4.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.see-video-description {
+  font-size: 2rem;
+  padding: 2.4rem 0;
+}
+
+.see-text-container:nth-child(3) .see-video-title {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.see-text-container:nth-child(3) div {
+  display: flex;
+  justify-content: flex-end;
 }

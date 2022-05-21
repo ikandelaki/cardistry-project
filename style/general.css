@@ -80,11 +80,11 @@ body {
   display: grid;
   padding: 2rem;
   gap: 4.8rem;
-  height: 100%;
 }
 
 .grid--2-cols {
   grid-template-columns: 1fr 1fr;
+  column-gap: 4.8rem;
 }
 
 .stick-left {
