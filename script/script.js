@@ -21,7 +21,7 @@ const observer = new IntersectionObserver(
 observer.observe(sectionWhatEl);
 
 // Smooth scrolling
-const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll(".link");
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
