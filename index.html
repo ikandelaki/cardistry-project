@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,10 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Poppins:wght@300;400;600;700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/png" href="img/card-logo.png">
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/queries.css" />
 
-    <title>Cardistry &mdash; Art of shuffling playing cards</title>
+
+    <title>CARDISTRY &mdash; Art of shuffling playing cards</title>
   </head>
   <body>
     <header class="header">
@@ -22,26 +27,28 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="nav-link link" href="#">Section 1</a></li>
-          <li><a class="nav-link link" href="#">Section 2</a></li>
-          <li><a class="nav-link link" href="#">Section 3</a></li>
-          <li><a class="nav-link link" href="#">Section 4</a></li>
-          <li><a class="nav-link link" href="#">Section 5</a></li>
+          <li><a class="nav-link link" href="#what">What it is</a></li>
+          <li><a class="nav-link link" href="#see">See for yourself</a></li>
+          <li><a class="nav-link link" href="#featured">Featured in</a></li>
+          <li><a class="nav-link link" href="#contact">Contact</a></li>
         </ul>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
       </nav>
     </header>
 
     <section class="section-hero">
       <div class="hero-container">
-        <div class="hero-text">
+        <div class="hero-text ">
           <h1 class="main-heading">Cardistry &dash;</h1>
           <h2 class="heading-tertiary">Art of shuffling playing cards.</p>
           <p class="hero-description">
             Sounds... weird?<br />
             let me introduce you to the astonishing world of card
             shuffling.</p>
-          <a class="hero-link link" href="#">Explore</a>
-          <a class="hero-link--contact link" href="#">Contact</a>
+            <div class="links-container">
+              <a class="hero-link link" href="#what">Explore</a>
+              <a class="hero-link--contact link" href="#contact">Contact</a>
+            </div>
         </div>
         <div class="hero-img">
           <img src="img/fontaine-2-green.jpg" alt="Image of card flourish" />
@@ -49,22 +56,23 @@
       </div>
     </section>
 
-    <section class="section-what">
+    <section class="section-what" id="what">
       <div class="container">
         <h2 class="heading-secondary">.What it is</h2>
         <div class="grid grid--2-cols">
           <div class="what-img">
-            <img src="img/fontaine-3-orange.jpg">
+            <img src="img/what-1.jpg">
           </div>
           <div class="what-img img-2">
-            <img src="img/fontaine-4-purple.jpg">
+            <img src="img/what-2.jpg">
           </div>
           <p class="cardistry-description">The term "cardistry" is a portmanteau of "card" and "artistry". People who engage in cardistry are colloquially known as "cardists".</p>
           <p class="cardistry-description">Cardistry is the performance art of card flourishing. Unlike card magic, cardistry is meant to be visually impressive and appear very hard to execute.</p>
         </div>
       </div>
     </section>
-    <section class="section-see">
+
+    <section class="section-see" id="see">
       <div class="container">
         <h2 class="heading-secondary stick-left">.See for yourself
         </h2>
@@ -84,7 +92,7 @@
           </div>
           <div class="see-text-container">
             <p class="see-video-title">Good Company</p>
-            <p class="see-video-description">Upbeat cardistry jam video performed by Fontaine Cards community. Fontaine is one of the leading brands in cardistry and most of the content I have provided here are from them. Just high quality, high standards, high level Cardistry</p>
+            <p class="see-video-description">Upbeat cardistry jam video performed by Fontaine Cards community. Fontaine is one of the leading brands in cardistry. High quality, high standards, high level Cardistry</p>
             <div>
               <a href="https://www.youtube.com/watch?v=9TOn2smikz4" class="see-video-link link" target="_blank">See video</a>
             </div>
@@ -106,6 +114,43 @@
           </div>
         </section>
       </div>  
+    </section>
+
+    <section class="section-featured" id="featured">
+      <div class="container">
+        <h2 class="heading-secondary">.Featured in</h2>
+        <div class="featured-in-box">
+          <img src="img/wired.png" class="featured-img">
+          <img src="img/vanityfair.png" class="featured-img">
+          <img src="img/discovery.png" class="featured-img">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+      <div class="container align-left">
+          <h2 class="heading-contact">.Contact me</h2>
+          <div class="logo-box">
+            <a href="https://www.facebook.com/ikandelakii" target="_blank" class="link social-link">
+              <div>
+                <ion-icon class="icon" name="logo-facebook"></ion-icon>
+                <p>Irakli Kandelaki</p>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/ikandelaki_/" target="_blank" class="link social-link">
+              <div>
+                  <ion-icon class="icon" name="logo-instagram"></ion-icon>
+                  <p>ikandelaki_</p>
+              </div>
+            </a>  
+            <a href="https://www.instagram.com/ikandelaki_/" target="_blank" class="link social-link">
+              <div>
+                <ion-icon class="icon" name="mail-outline"></ion-icon>
+                <p>iraklikandelaki2@gmail.com</p>
+              </div>
+            </a>
+          </div>
+      </div>
     </section>
   </body>
 </html>

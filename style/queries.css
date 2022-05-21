@@ -1,0 +1,136 @@
+/****************************/
+/* BELOW 1000 PX */
+/****************************/
+@media (max-width: 62.5em) {
+  html {
+    font-size: 52.65%;
+  }
+}
+
+/****************************/
+/* BELOW 864 PX */
+/****************************/
+
+@media (max-width: 54em) {
+  .menu-icon {
+    display: block;
+  }
+
+  .main-nav-list {
+    display: none;
+  }
+
+  .hero-container {
+    width: 70%;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .flex-phone {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img-2 {
+    transform: translate(0);
+  }
+
+  .cardistry-description:nth-child(4) {
+    transform: translateY(0);
+    grid-row: 2;
+  }
+
+  .hero-img {
+    justify-self: center;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .see-video-title {
+    font-size: 2.6rem;
+  }
+
+  .see-video-description {
+    font-size: 1.6rem;
+  }
+
+  .heading-contact {
+    font-size: 3rem;
+  }
+
+  .logo-box p {
+    font-size: 1.6rem;
+  }
+}
+
+/****************************/
+/* BELOW 600 PX */
+/****************************/
+
+@media (max-width: 37.5em) {
+  .main-heading {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+
+  .hero-description {
+    font-size: 2.4rem;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-link--contact:link,
+  .hero-link--contact:active {
+    margin-left: 0;
+  }
+
+  .hero-link:link,
+  .hero-link:visited,
+  .hero-link--contact:link,
+  .hero-link--contact:visited {
+    font-size: 2.4rem;
+  }
+
+  .grid--1-col {
+    grid-template-columns: 1fr;
+  }
+
+  .videos-section a:nth-of-type(2) {
+    grid-row: 3;
+  }
+
+  .see-text-container:nth-child(3) .see-video-title {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .see-text-container:nth-child(3) div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .flex-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 25em) {
+  .featured-in-box {
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+  }
+}
