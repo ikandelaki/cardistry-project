@@ -102,6 +102,10 @@
     font-size: 2.4rem;
   }
 
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
   .grid--1-col {
     grid-template-columns: 1fr;
   }
